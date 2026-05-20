@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { supabase } from "/supabase.js";
 import { supabase } from "src/supabase.js";
 
 export default function App() {
