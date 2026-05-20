@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { supabase } from "./supabase";
+import { supabase } from "src/supabase.js";
 
 export default function App() {
   const [materials, setMaterials] = useState([]);
